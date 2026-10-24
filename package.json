@@ -1,0 +1,21 @@
+{
+  "name": "trafalgar-rage-v7",
+  "version": "7.1.0",
+  "description": "Ultimate black‑ops Telegram bot – premium, free trial, AI, attacks & more.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.1",
+    "gramjs": "^0.8.4",
+    "openai": "^4.28.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sqlite3": "^5.1.7",
+    "telegraf": "^4.16.3",
+    "twilio": "^4.22.0"
+  }
+}
