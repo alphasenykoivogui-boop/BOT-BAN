@@ -25,7 +25,7 @@ const TELEGRAM_API_HASH = process.env.TELEGRAM_API_HASH || '';
 const SESSIONS = (process.env.TELEGRAM_SESSIONS || '').split(',').filter(s => s.trim());
 const C2_CHAT_ID = parseInt(process.env.C2_CHAT_ID) || OWNER_ID;
 const BANNER_URL = process.env.BANNER_URL || 'https://files.catbox.moe/ta4agk.jpg';
-const CHANNEL_LINK = process.env.CHANNEL_LINK || 'https://t.me/devtrafalfalgar2010';
+const CHANNEL_LINK = process.env.CHANNEL_LINK || 'https://t.me/trafalfalgar2010dev';
 const TEXTBELT_KEY = process.env.TEXTBELT_KEY || 'textbelt';
 const DEV_LINK = process.env.DEV_LINK || 'https://t.me/Dev_Trafalgar';
 
